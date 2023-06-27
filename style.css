@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'RoughTypewriter';
+  src: url('font/RoughTypewriter.woff2') format('woff2'),
+    url('font/RoughTypewriter.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+BODY,
+HTML {
+  background-color: black;
+  color: white;
+  font-family: 'RoughTypewriter';
+  margin: 2rem;
+}
+
+p {
+  font-size: 1.2rem
+}
+
+a {
+  color: cyan;
+}
+
+dd {
+  margin-bottom: 1rem;
+}
